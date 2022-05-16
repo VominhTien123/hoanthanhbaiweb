@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/dangnhap.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+</head>
+<body>
+    <section id="header">
+        <!-- Khối chứa logo -->
+        <div id="logo">
+            <a href="#"><img src="img/header/logo.png" alt=""></a>
+        </div>
+        <!-- Phần liên kết, menu, tìm kiếm -->
+        <div class="header-top">
+            <!-- Khung tìm kiếm -->
+            <div id="searchform" class="clearfix">
+                <!-- Liên kết Đăng ký/Login-->
+                <div class="item" id="register">
+                    <a href="http://localhost/my_website/login.php">Đăng nhập / Đăng ký</a>
+                </div>
+                <!-- Khung nhập nội dung tìm kiếm -->
+                <div class="item">
+                    <input class="search_textbox" type="text" value="Search">
+                    <div class="search_button">
+                        <a href="#"><img src="img/header/searchbtn.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div id="menu" class="clearfix">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/Trang%20ch%E1%BB%A7/index.html">Trang chủ</a></li>
+                    <li><a href="http://127.0.0.1:5500/%C4%90%E1%BA%B7t%20h%C3%A0ng%20online/index.html">Đặt hàng online</a></li>
+                    <li><a class="menu-active" href="http://127.0.0.1:5500/%C4%90%E1%BA%B7t%20h%C3%A0ng%20online/index.html">Menu</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="http://127.0.0.1:5500/Li%C3%AAn%20h%E1%BB%87/1.html">Liên hệ</a></li>
+                    <li><a href="http://127.0.0.1:5500/Tuy%E1%BB%83n%20d%E1%BB%A5ng/index.html">Tuyển dụng</a></li>
+                    <li class="cartimg" ><img src="img/header/cart.png" alt=""></li>
+                </ul>
+            </div>
+            <!-- Ngôn ngữ hiển thị -->
+            <div id="flag">
+                <a href="#"><img src="img/header/vi.png" alt="VN" title="Vietnamese"></a>
+                <a href="#"><img src="img/header/uk.png" alt="UK" title="English"></a>
+                <a href="#"><img src="img/header/kor.png" alt="Kr" title="Korean"></a>
+                <a href="#"><img src="img/header/ja.png" alt="Jp" title="Japanese"></a>
+            </div>
+        </div>
+
+    </section>
+    <!---->
+
+   <section id="main">
+    <div id="body_content">
+        <div class="content-title">
+            <h2 class="page_title">Login or create an Account   </h2>
+        </div>
+        <div id="Incontent">
+            <div id="cLeft">
+                <h2 class="titleLogin">Registered Customers</h2>
+                <p>If you have an account with us, log in using your email address.</p>
+                <div class="username">
+                    <span class="title-account">Phone No. / E-mail</span>
+                    <input type="email" class="txtEmail input-account" name="Email" spellcheck="false">
+                </div>
+                <div class="password">
+                    <span  class="title-account">Password</span>
+                    <input type="Password" class="txtEPasswd input-account" name="Passwd" >
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot your Password ?</a>
+                    <button class="btnLogin">Submit</button>
+                </div>
+            </div>
+            <div id="cRight">   
+                <h2 class="titleRegister">New Customers</h2>
+                <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
+                <div class="register-account">
+                    <button class="btnRegister"><a href="register.html">Register</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+
+    
+
+    <!---->
+    <section id="footer">
+        <!-- Thông tin liên hệ-->
+        <div class="left-footer">
+        <ul>
+            <li class="item">@ The Al Fresco's Group 2019</li>
+            <li class="item"><a class="icon_face"><i class="fab fa-facebook"></i></a></li>
+            <li class="item"><a class="icon_youtube"><i class="fab fa-youtube-square"></i></a></li>
+            <li class="item"><a class="icon_app"><i class="fab fa-app-store"></i></a></li>
+        </ul>
+        </div>
+        <!-- Liên kết trang phụ-->
+        <div class="right-footer">
+            <ul>
+                <li><a href="#">Sơ đồ site</a></li>
+                <li><a href="http://127.0.0.1:5500/Nh%C6%B0%E1%BB%A3ng%20Quy%E1%BB%81n/index.html">nhượng quyền</a></li>
+                <li><a href="#">chính sách bảo mật</a></li>
+                <li><a href="http://127.0.0.1:5500/%C4%90i%E1%BB%81u%20ki%E1%BB%87n%20s%E1%BB%AD%20d%E1%BB%A5ng/index.html">điều kiện sử dụng</a></li>
+                <li><a href="#">head office</a></li>
+            </ul>
+        </div>
+    </section>
+    
+</body>
+</html>
